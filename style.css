@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header,
+#string-length,
+#btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#string {
+  padding: 5px;
+  width: 170px;
+}
+
+/* input[type="checkbox"] + label {
+  display: block;
+  cursor: pointer;
+  margin: 0.5em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: "\2714";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  color: transparent;
+  margin-right: 0.2em;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: blue;
+  border-color: blue;
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+
+#letter-num {
+  margin-left: 5px;
+}
+*/
+
+#copy-btn {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#generate-btn {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 18px;
+}
+
+#display-container {
+  display: block;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.copy-btn {
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 2px;
+}
+
+.para-text,
+.display-password {
+  font-size: 20px;
+}
+
+.fa-copy {
+  pointer-events: none;
+}
